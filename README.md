@@ -46,7 +46,7 @@ Please refer to `requirements.txt` for the experimental environment of our work.
 ### FEMNIST
 1. download the dataset at `/home/{username}/.dataset` 
 2. enter `data` directory by conducting `cd data`
-3. run `data\preprocess_femnist.py`
+3. run `data/preprocess_femnist.py`
 
 ### Sent140
 1. enter `data` directory by conducting `cd data`
