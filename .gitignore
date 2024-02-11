@@ -1,0 +1,13 @@
+*\__pycache__
+*\ckpt
+*\logs
+*.pth
+.idea
+*.jpg
+*.png
+*.vscode
+*.pkl
+*.pickle
+*.bin
+*.json
+batch_*.py
