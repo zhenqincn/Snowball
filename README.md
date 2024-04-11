@@ -70,7 +70,7 @@ The meaning of each argument can be found in `main.py`.
 
 ## License
 This project adopts the Apache-2.0 License. 
-If the implementations and/or our paper were useful to you, please consider citing our [work](Resisting Backdoor Attacks in Federated Learning via Bidirectional Elections and Individual Perspective):
+If the implementations and/or our paper were useful to you, please consider citing our [work](https://ojs.aaai.org/index.php/AAAI/article/view/29385):
 ```latex
 @inproceedings{qin2024resisting,
   title={Resisting Backdoor Attacks in Federated Learning via Bidirectional Elections and Individual Perspective},
