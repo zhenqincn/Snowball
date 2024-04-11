@@ -1,6 +1,6 @@
 # Snowball
 
-This repository contains the official implementation of our paper [Resisting Backdoor Attacks in Federated Learning via Bidirectional Elections and Individual Perspective](https://arxiv.org/abs/2309.16456) which has been accepted by **AAAI 2024**. 
+This repository contains the official implementation of our paper [Resisting Backdoor Attacks in Federated Learning via Bidirectional Elections and Individual Perspective](https://ojs.aaai.org/index.php/AAAI/article/view/29385) which has been accepted by **AAAI 2024**. 
 
 > Existing approaches defend against backdoor attacks in federated learning (FL) mainly through a) mitigating the impact of infected models, or b) excluding infected models. The former negatively impacts model accuracy, while the latter usually relies on globally clear boundaries between benign and infected model updates. However, model updates are easy to be mixed and scattered throughout in reality due to the diverse distributions of local data. This work focuses on excluding infected models in FL. Unlike previous perspectives from a global view, we propose Snowball, a novel anti-backdoor FL framework through bidirectional elections from an individual perspective inspired by one principle deduced by us and two principles in FL and deep learning. It is characterized by a) bottom-up election, where each candidate model update votes to several peer ones such that a few model updates are elected as selectees for aggregation; and b) top-down election, where selectees progressively enlarge themselves through picking up from the candidates. We compare Snowball with state-of-the-art defenses to backdoor attacks in FL on five real-world datasets, demonstrating its superior resistance to backdoor attacks and slight impact on the accuracy of the global model.
 
@@ -70,12 +70,15 @@ The meaning of each argument can be found in `main.py`.
 
 ## License
 This project adopts the Apache-2.0 License. 
-If the implementations and/or our paper were useful to you, please consider citing our [work](https://arxiv.org/abs/2309.16456):
+If the implementations and/or our paper were useful to you, please consider citing our [work](Resisting Backdoor Attacks in Federated Learning via Bidirectional Elections and Individual Perspective):
 ```latex
-@article{qin2023resisting,
+@inproceedings{qin2024resisting,
   title={Resisting Backdoor Attacks in Federated Learning via Bidirectional Elections and Individual Perspective},
   author={Qin, Zhen and Chen, Feiyi and Zhi, Chen and Yan, Xueqiang and Deng, Shuiguang},
-  journal={arXiv preprint arXiv:2309.16456},
-  year={2023}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={13},
+  pages={14677--14685},
+  year={2024}
 }
 ```
