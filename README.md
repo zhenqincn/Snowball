@@ -62,7 +62,7 @@ python main.py -a snowball --nodes 200 -k 50 --model_save none  --dataset "mnist
 
 2. on `FEMNIST` dataset
 ```shell
-python main.py -a myapp_ddif_ext --nodes 3597 -k 100 --model_save none  --dataset "femnist" --malicious_ratio 0.2 --seed 69 --model "mnistcnn" --rounds 200 --gpu 0 --backdoor_target 61 --vt 0.5 --vae_initial 360 --vae_tuning 40 --v_step 0.05
+python main.py -a snowball --nodes 3597 -k 100 --model_save none  --dataset "femnist" --malicious_ratio 0.2 --seed 69 --model "mnistcnn" --rounds 200 --gpu 0 --backdoor_target 61 --vt 0.5 --vae_initial 360 --vae_tuning 40 --v_step 0.05
 ```
 
 You can run experiments under different settings by adjusting the arguments. 
